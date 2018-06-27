@@ -1,5 +1,5 @@
 # Music source sepeartion using stacked hourglass networks
-This is the code for the paper 'Music source separation using stacked hourglass networks', ISMIR 2018
+This is the code for the paper '[Music source separation using stacked hourglass networks](http://arxiv.org/abs/1805.08559)', ISMIR 2018
 
 ## Usage
 
@@ -41,3 +41,9 @@ for MIR-1K dataset, or
 python eval_dsd_100.py
 ```
 for DSD 100 dataset.
+
+## Trained models
+These are the checkpoint files for each dataset to reproduce the results on the paper.
+
+[MIR-1K](https://www.dropbox.com/s/6759yx0zqer316f/mir_1k_checkpoints.zip?dl=0)
+[DSD 100](https://www.dropbox.com/s/3vteakcu7qjwo84/dsd_100_checkpoints.zip?dl=0)

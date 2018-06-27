@@ -7,7 +7,6 @@ from config import NetConfig_DSD_100, ModelConfig
 from util import to_spec, to_wav_file, bss_eval_sdr
 import librosa
 from statistics import median
-import matplotlib.pyplot as plt
 
 batchSize = 1
 

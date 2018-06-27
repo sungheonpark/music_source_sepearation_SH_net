@@ -3,7 +3,7 @@ import tensorflow as tf
 class ModelConfig:
     SR = 8000
     L_FRAME = 1024
-    L_HOP = L_FRAME / 4
+    L_HOP = 256
 
 class NetConfig_MIR_1K:
     NAME = '4stack_256_mir_1k'
